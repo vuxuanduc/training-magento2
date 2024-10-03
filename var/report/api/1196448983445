@@ -1,0 +1,1 @@
+"Fatal Error: 'Cannot use Magento\\Tests\\NamingConvention\\true\\string as string because 'string' is a special class name' in '\/var\/www\/html\/magento247\/app\/code\/Magenest\/EavTest\/Api\/CustomInterface.php' on line 6"

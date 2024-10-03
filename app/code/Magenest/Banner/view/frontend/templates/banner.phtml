@@ -1,0 +1,23 @@
+<?php $banner = $block->getImageUrl(); ?>
+
+<div class="banner-left">
+    <img src="<?= $banner ?>" alt="">
+</div>
+
+<div class="banner-right">
+    <img src="<?= $banner ?>" alt="">
+</div>
+
+<style>
+    .banner-left, .banner-right {
+        height: 100vh;
+        width: 20%;
+        position: fixed;
+    }
+    .banner-right {
+        right: 0;
+    }
+    .banner-left {
+        left: 0;
+    }
+</style>

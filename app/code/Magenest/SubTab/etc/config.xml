@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+            <general>
+                <enable>1</enable>
+                <display_text>Hello World</display_text>
+            </general>
+            <min_sale>
+                <min_sale_qty>10</min_sale_qty>
+            </min_sale>
+
+            <colorpickerSetting>
+                <color_option>#FFFFFF</color_option>
+            </colorpickerSetting>
+
+        <subtab>
+            <general>
+                <field1>0</field1>
+            </general>
+        </subtab>
+    </default>
+</config>

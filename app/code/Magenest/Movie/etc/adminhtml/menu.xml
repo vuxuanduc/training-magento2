@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:setup:etc/menu.xsd">
+    <menu>
+        <add id="Magenest_Movie::movie"
+             title="Movies"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="12"
+             resource="Magenest_Movie::movie"/>
+
+        <add id="Magenest_Movie::manages"
+             title="Movies"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="10"
+             parent="Magenest_Movie::movie"
+             resource="Magenest_Movie::manages"/>
+
+        <add id="Magenest_Movie::manage"
+             title="Manage"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="10"
+             parent="Magenest_Movie::manages"
+             resource="Magenest_Movie::manage"
+             action="movies/movie/index" />
+
+        <add id="Magenest_Movie::xero_integration"
+             title="Xero Integration"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="20"
+             parent="Magenest_Movie::movie"
+             resource="Magenest_Movie::xero_integration"/>
+
+        <add id="Magenest_Movie::view_log"
+             title="View Log"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="10"
+             parent="Magenest_Movie::xero_integration"
+             resource="Magenest_Movie::view_log"/>
+
+        <add id="Magenest_Movie::queue_list"
+             title="Queue List"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="20"
+             parent="Magenest_Movie::xero_integration"
+             resource="Magenest_Movie::queue_list"/>
+
+        <add id="Magenest_Movie::request_dally_report"
+             title="Request Dally Report"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="30"
+             parent="Magenest_Movie::xero_integration"
+             resource="Magenest_Movie::request_dally_report"
+             action="movies/report/report"/>
+
+        <add id="Magenest_Movie::configuration"
+             title="Configuration"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="40"
+             parent="Magenest_Movie::xero_integration"
+             resource="Magenest_Movie::configuration"/>
+
+        <add id="Magenest_Movie::xero_bank"
+             title="Xero Bank Account Mappings"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="30"
+             parent="Magenest_Movie::movie"
+             resource="Magenest_Movie::xero_bank"/>
+
+        <add id="Magenest_Movie::payment"
+             title="Payment Mapping"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="30"
+             parent="Magenest_Movie::xero_bank"
+             resource="Magenest_Movie::payment"/>
+
+        <add id="Magenest_Movie::store_view"
+             title="Xero Store View, Tracking Category Mapping"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="30"
+             parent="Magenest_Movie::movie"
+             resource="Magenest_Movie::store_view"/>
+
+        <add id="Magenest_Movie::store_view_mapping"
+             title="Store View Mapping"
+             translate="title"
+             module="Magenest_Movie"
+             sortOrder="30"
+             parent="Magenest_Movie::store_view"
+             resource="Magenest_Movie::store_view_mapping"/>
+
+    </menu>
+</config>

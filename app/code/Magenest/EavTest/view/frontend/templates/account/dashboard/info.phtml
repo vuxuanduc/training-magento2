@@ -1,0 +1,8 @@
+<?php
+/** @var \Magento\Customer\Block\Account\Dashboard\Info $block */
+
+$customer = $block->getCustomer();
+?>
+<h2><?= $block->getCustomer()->getFirstname().' '.$block->getCustomer()->getLastname() ?></h2>
+<h2><?= $customer->getEmail() ?></h2>
+

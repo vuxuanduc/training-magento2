@@ -1,0 +1,40 @@
+<div id="custom-popup-modal">
+    <h2>Thông báo!</h2>
+    <hr>
+    <?php echo $block->getDetailRule()->getName(); ?> <br>
+    <?php echo $block->getDetailRule()->getDescription(); ?>
+</div>
+
+<script>
+    require(
+        [
+            'jquery',
+            'Magento_Ui/js/modal/modal'
+        ],
+        function(
+            $,
+            modal
+        ) {
+            var options = {
+                type: 'popup',
+                responsive: true,
+                innerScroll: true,
+                modalClass: 'custom-popup-modal',
+                buttons: [{
+                    text: $.mage.__('Close'),
+                    class: '',
+                    click: function () {
+                        this.closeModal();
+                    }
+                }]
+            };
+
+            var popup = modal(options, $('#custom-popup-modal'));
+
+            $( document ).ready(function() {
+                // $('#custom-popup-modal').modal('openModal');
+                setTimeout(function(){ $('#custom-popup-modal').modal('openModal'); }, 6000);
+           });
+        }
+    );
+</script>

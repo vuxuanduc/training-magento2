@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:setup:etc/menu.xsd">
+    <menu>
+        <add id="Magenest_EavTest::menu"
+             title="Blogs" module="Magenest_EavTest"
+             sortOrder="12"
+             resource="Magenest_EavTest::menu"
+             action="blogs/blog/index"
+        />
+    </menu>
+</config>

@@ -1,0 +1,8 @@
+.admin__menu .level-0.item-banner > a:before {
+  content: url('../images/image-regular.svg');
+  height: 28px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 30px;
+  color: white;
+}

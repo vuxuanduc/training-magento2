@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="empty" />
+    <body>
+        <container name="some.container" as="someContainer" label="Some Container" htmlTag="div" htmlClass="some-container" />
+        <referenceContainer name="some.container">
+            <block class="Magenest\FirstPage\Block\FirstPage" name="magenset_firstpage_page_view" template="Magenest_FirstPage::example.phtml" />
+        </referenceContainer>
+    </body>
+</page>

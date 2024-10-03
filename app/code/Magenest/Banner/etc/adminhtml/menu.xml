@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:setup:etc/menu.xsd">
+    <menu>
+        <add id="Magenest_Banner::banner"
+             title="Banners"
+             translate="title"
+             module="Magenest_Banner"
+             sortOrder="13"
+             resource="Magenest_Banner::banner"
+             action="banners/banner/index"
+        />
+    </menu>
+</config>
