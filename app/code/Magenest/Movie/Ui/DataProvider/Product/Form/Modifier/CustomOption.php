@@ -13,7 +13,8 @@ class CustomOption extends AbstractModifier
 
     public function __construct(
         LayoutFactory $layoutFactory
-    ) {
+    )
+    {
         $this->layoutFactory = $layoutFactory;
     }
 

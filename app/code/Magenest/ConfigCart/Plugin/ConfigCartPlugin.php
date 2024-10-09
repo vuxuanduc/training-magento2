@@ -25,7 +25,6 @@ class ConfigCartPlugin
                 if ($childProduct) {
                     $childProduct->setName($this->getModifiedName($childProduct));
                     $childProduct->setImage($this->getModifiedImage($childProduct));
-
                     $productInfo = $childProduct;
                 }
             }

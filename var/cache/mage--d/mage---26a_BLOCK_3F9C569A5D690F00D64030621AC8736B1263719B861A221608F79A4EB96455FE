@@ -1,0 +1,251 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1728454955;s:6:"expire";i:1728541355;s:4:"tags";s:58:"26a_CAT_P,26a_BLOCK_HTML,26a_CAT_P_6,26a_CAT_P_14,26a_MAGE";}
+        <div class="block widget block-products-list grid">
+                <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-product-grid">
+                                                                <li class="product-item">                        <div class="product-item-info">
+                            <a href="http://example247.com/fusion-backpack.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-6">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://example247.com/media/catalog/product/cache/2018f591dc47d39b17b634dfa48bbab6/m/b/mb02-gray-0.jpg"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Fusion&#x20;Backpack&#x20;Deo&#x20;ok"/></span>
+</span>
+<style>.product-image-container-6 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-6 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-6 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Fusion Backpack Deo ok"
+                                       href="http://example247.com/fusion-backpack.html"
+                                       class="product-item-link">
+                                        Fusion Backpack Deo ok                                    </a>
+                                </strong>
+                                                                            <div class="product-reviews-summary short">
+                <div class="rating-summary">
+            <span class="label"><span>Rating:</span></span>
+            <div class="rating-result"
+                 id="rating-result_6"
+                 title="67%">
+                <span><span>67%</span></span>
+            </div>
+            <script type="text&#x2F;javascript">    var elemIjL7o5cQArray = document.querySelectorAll('#rating-result_6 span');
+    if(elemIjL7o5cQArray.length !== 'undefined'){
+        elemIjL7o5cQArray.forEach(function(element) {
+            if (element) {
+                element.style.width = '67%';
+
+            }
+        });
+    }</script>        </div>
+                <div class="reviews-actions">
+            <a class="action view"
+               href="http://example247.com/fusion-backpack.html#reviews">3                &nbsp;<span>Reviews                </span>
+            </a>
+        </div>
+    </div>
+                                
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="6" data-price-box="product-id-6">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-6-widget-product-grid"                data-price-amount="59"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">59,00 $</span></span>
+        </span>
+
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="24-MB02" action="http://example247.com/checkout/cart/add/uenc/aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~/product/6/" method="post">
+                                                            <input type="hidden" name="product" value="6">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2V4YW1wbGUyNDcuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMlY0WVcxd2JHVXlORGN1WTI5dEx3fn4vcHJvZHVjdC82Lw~~">
+                                                            <input name="form_key" type="hidden" value="xbVGNbBlbN9TgsaU" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "24\u002DMB02"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/example247.com\/wishlist\/index\/add\/","data":{"product":6,"uenc":"aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare" data-post='{"action":"http:\/\/example247.com\/catalog\/product_compare\/add\/","data":{"product":"6","uenc":"aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~"}}' title="Add&#x20;to&#x20;Compare">
+                                                            <span>Add to Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://example247.com/push-it-messenger-bag.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-14">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://example247.com/static/version1728450185/frontend/Magento/luma/de_DE/Magento_Catalog/images/product/placeholder/small_image.jpg"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Push&#x20;It&#x20;Messenger&#x20;Bag&#x20;Deo&#x20;ok"/></span>
+</span>
+<style>.product-image-container-14 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-14 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-14 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Push It Messenger Bag Deo ok"
+                                       href="http://example247.com/push-it-messenger-bag.html"
+                                       class="product-item-link">
+                                        Push It Messenger Bag Deo ok                                    </a>
+                                </strong>
+                                                                            <div class="product-reviews-summary short">
+                <div class="rating-summary">
+            <span class="label"><span>Rating:</span></span>
+            <div class="rating-result"
+                 id="rating-result_14"
+                 title="67%">
+                <span><span>67%</span></span>
+            </div>
+            <script type="text&#x2F;javascript">    var elemUB5vUjFBArray = document.querySelectorAll('#rating-result_14 span');
+    if(elemUB5vUjFBArray.length !== 'undefined'){
+        elemUB5vUjFBArray.forEach(function(element) {
+            if (element) {
+                element.style.width = '67%';
+
+            }
+        });
+    }</script>        </div>
+                <div class="reviews-actions">
+            <a class="action view"
+               href="http://example247.com/push-it-messenger-bag.html#reviews">3                &nbsp;<span>Reviews                </span>
+            </a>
+        </div>
+    </div>
+                                
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="14" data-price-box="product-id-14">    <span class="normal-price">
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-14-widget-product-grid"                data-price-amount="10"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">10,00 $</span></span>
+        </span>
+</span>
+
+
+</div>
+                                                <div class="swatch-opt-14"
+         data-role="swatch-option-14"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-14]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"49","label":"Black","products":["50"]},{"id":"50","label":"Blue","products":["51"]},{"id":"51","label":"Brown","products":["52"]}],"position":"0"}},"template":"<%- data.price %>\u00a0$","currencyFormat":"%s\u00a0$","optionPrices":{"50":{"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10},"tierPrices":[],"msrpPrice":{"amount":0}},"51":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"52":{"baseOldPrice":{"amount":30},"oldPrice":{"amount":30},"basePrice":{"amount":30},"finalPrice":{"amount":30},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0$","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10}},"productId":"14","chooseText":"Choose an Option...","images":[],"index":{"50":{"93":"49"},"51":{"93":"50"},"52":{"93":"51"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"50":"24-WB04-Black","51":"24-WB04-Blue","52":"24-WB04-Brown"}},
+                    "jsonSwatchConfig": {"93":{"49":{"type":"1","value":"#000000","label":"Black"},"50":{"type":"1","value":"#1857f7","label":"Blue"},"51":{"type":"1","value":"#945454","label":"Brown"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"}},
+                    "mediaCallback": "http\u003A\u002F\u002Fexample247.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-14]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"%s\u00a0$","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10}}                    }
+                }
+            }
+        }
+    </script>
+
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="24-WB04" action="http://example247.com/checkout/cart/add/uenc/aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~/product/14/" method="post">
+                                                            <input type="hidden" name="product" value="14">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2V4YW1wbGUyNDcuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMlY0WVcxd2JHVXlORGN1WTI5dEx3fn4vcHJvZHVjdC8xNC8~">
+                                                            <input name="form_key" type="hidden" value="xbVGNbBlbN9TgsaU" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "24\u002DWB04"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/example247.com\/wishlist\/index\/add\/","data":{"product":14,"uenc":"aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare" data-post='{"action":"http:\/\/example247.com\/catalog\/product_compare\/add\/","data":{"product":"14","uenc":"aHR0cDovL2V4YW1wbGUyNDcuY29tLw~~"}}' title="Add&#x20;to&#x20;Compare">
+                                                            <span>Add to Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                        </li>                                    </ol>
+            </div>
+                    </div>
+    </div>

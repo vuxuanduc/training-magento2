@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:setup:etc/menu.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:setup:etc/menu.xsd">
     <menu>
         <add id="Magenest_Movie::movie"
              title="Movies"
@@ -23,7 +24,7 @@
              sortOrder="10"
              parent="Magenest_Movie::manages"
              resource="Magenest_Movie::manage"
-             action="movies/movie/index" />
+             action="movies/movie/index"/>
 
         <add id="Magenest_Movie::xero_integration"
              title="Xero Integration"

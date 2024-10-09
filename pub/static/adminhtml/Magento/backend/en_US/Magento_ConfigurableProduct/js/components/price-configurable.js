@@ -1,0 +1,1 @@
+/var/www/html/magento247/vendor/magento/module-configurable-product/view/adminhtml/web/js/components/price-configurable.js

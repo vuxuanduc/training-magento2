@@ -46,7 +46,7 @@
             </item>
         </argument>
         <settings>
-            <submitUrl path="banners/banner/update"/>
+            <submitUrl path="banners/banner/save"/>
         </settings>
         <dataProvider class="Magenest\Banner\Model\DataProvider" name="banners_banner_editing_data_source">
             <settings>

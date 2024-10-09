@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'mgn gw icomoon';
+    src:  url('../fonts/icomoon.eot?avcomu');
+    src:  url('../fonts/icomoon.eot?avcomu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?avcomu') format('truetype'),
+    url('../fonts/icomoon.woff?avcomu') format('woff'),
+    url('../fonts/icomoon.svg?avcomu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+[class^="mgn_gw-icon-"], [class*="mgn_gw-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'mgn gw icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mgn_gw-icon-chevron-thin-left:before {
+    content: "\e901";
+}
+.mgn_gw-icon-chevron-thin-right:before {
+    content: "\e900";
+}

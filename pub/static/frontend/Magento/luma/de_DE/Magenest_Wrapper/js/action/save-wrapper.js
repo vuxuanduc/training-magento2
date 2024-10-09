@@ -1,0 +1,1 @@
+/var/www/html/magento247/app/code/Magenest/Wrapper/view/frontend/web/js/action/save-wrapper.js

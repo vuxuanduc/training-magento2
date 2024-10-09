@@ -102,10 +102,10 @@ class Save extends \Magento\Backend\App\Action
     public function imageData($model, $data)
     {
         if ($model->getId()) {
-            $pageData = $this->helloworldFactory->create();
-            $pageData->load($model->getId());
+            $oldData = $this->bannerFactory->create();
+            $oldData->load($model->getId());
             if (isset($data['image'][0]['name'])) {
-                $imageName1 = $pageData->getThumbnail();
+                $imageName1 = $oldData->getImage();
                 $imageName2 = $data['image'][0]['name'];
                 if ($imageName1 != $imageName2) {
                     $imageUrl = $data['image'][0]['url'];

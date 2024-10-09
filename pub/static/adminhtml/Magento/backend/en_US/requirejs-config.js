@@ -766,6 +766,37 @@ require.config(config);
 })();
 (function() {
 /**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
+    config: {
+        mixins: {
+            'Magento_Ui/js/lib/validation/rules': {
+                'Magenest_Wrapper/js/lib/validation/rules-mixin': true
+            }
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+var config = {
+    'config': {
+        'mixins': {
+            'Magento_Ui/js/form/element/date': {
+                'Magenest_Wrapper/js/form/element/date-mixins': true
+            }
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
  * Mageplaza
  *
  * NOTICE OF LICENSE

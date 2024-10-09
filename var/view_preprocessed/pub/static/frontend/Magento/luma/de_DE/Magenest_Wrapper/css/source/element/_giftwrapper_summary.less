@@ -1,0 +1,35 @@
+& when (@media-common = true){
+  .mgn_gw.opc-block-summary{
+    .title{
+       margin-bottom: 15px;
+      border-bottom: @border-width__base @border-color__base @table__border-style;
+    }
+    .checkout-gift_wrapper-selected{
+      max-height: 370px;
+      overflow: auto;
+    }
+    .row.gift-wrapper-item{
+      display: flex;
+      padding: 15px 0;
+      border-bottom: @border-width__base @border-color__base @table__border-style;
+      .gift-wrapper-img{
+        width: 100px;
+        margin-right: 10px;
+        img{
+          width: 75px;
+          max-width: unset;
+        }
+      }
+      .gif-wrapper_product-info{
+        flex-grow: 1;
+        .price{
+          margin-top: 15px;
+        }
+      }
+    }
+    ul{
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+}

@@ -1,4 +1,5 @@
-<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
             <item name="provider" xsi:type="string">movies_movie_listing.movies_movie_listing_data_source</item>
@@ -16,7 +17,9 @@
     </argument>
     <dataSource name="movies_movie_listing_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+            <argument name="class" xsi:type="string">
+                Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider
+            </argument>
             <argument name="name" xsi:type="string">movies_movie_listing_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">movie_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
@@ -31,7 +34,6 @@
             </argument>
         </argument>
     </dataSource>
-
 
 
     <listingToolbar name="listing_top">

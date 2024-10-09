@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+
+    <argument name="data" xsi:type="array">
+
+        <item name="js_config" xsi:type="array">
+
+            <item name="provider" xsi:type="string">movies_movie_editing.movies_movie_editing_data_source</item>
+
+            <item name="deps" xsi:type="string">movies_movie_editing.movies_movie_editing_data_source</item>
+
+        </item>
+
+        <item name="label" xsi:type="string" translate="true">Employee Information</item>
+
+        <item name="config" xsi:type="array">
+
+            <item name="dataScope" xsi:type="string">data</item>
+
+            <item name="namespace" xsi:type="string">movies_movie_editing</item>
+
+        </item>
+
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+
+    </argument>
+
+    <settings>
+        <buttons>
+            <button name="save" class="Magenest\Movie\Block\Adminhtml\Edit\Button\Save"/>
+        </buttons>
+        <namespace>custom_form</namespace>
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>movies_movie_editing.movies_movie_editing_data_source</dep>
+        </deps>
+    </settings>
+
+
+    <dataSource name="movies_movie_editing_data_source">
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <settings>
+            <submitUrl path="movies/movie/save"/>
+        </settings>
+        <dataProvider class="Magenest\Movie\Model\DataProvider" name="movies_movie_editing_data_source">
+            <settings>
+                <requestFieldName>movie_id</requestFieldName>
+                <primaryFieldName>movie_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+
+
+    <fieldset name="employee_details">
+
+        <argument name="data" xsi:type="array">
+
+            <item name="config" xsi:type="array">
+
+                <item name="collapsible" xsi:type="boolean">false</item>
+
+                <item name="label" xsi:type="string" translate="true">Create Movie</item>
+
+                <item name="sortOrder" xsi:type="number">20</item>
+
+            </item>
+
+        </argument>
+
+        <field name="name">
+
+            <argument name="data" xsi:type="array">
+
+                <item name="config" xsi:type="array">
+
+                    <item name="dataType" xsi:type="string">text</item>
+
+                    <item name="label" xsi:type="string" translate="true">Movie name</item>
+
+                    <item name="formElement" xsi:type="string">input</item>
+
+                    <item name="source" xsi:type="string">name</item>
+
+                    <item name="dataScope" xsi:type="string">name</item>
+
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+
+                </item>
+
+            </argument>
+
+        </field>
+
+        <field name="description">
+
+            <argument name="data" xsi:type="array">
+
+                <item name="config" xsi:type="array">
+
+                    <item name="dataType" xsi:type="string">text</item>
+
+                    <item name="label" xsi:type="string" translate="true">Movie description</item>
+
+                    <item name="formElement" xsi:type="string">input</item>
+
+                    <item name="source" xsi:type="string">description</item>
+
+                    <item name="dataScope" xsi:type="string">description</item>
+
+                </item>
+
+            </argument>
+
+        </field>
+
+        <field name="rating">
+            <argument name="data" xsi:type="array">
+
+                <item name="config" xsi:type="array">
+
+                    <item name="dataType" xsi:type="string">number</item>
+
+                    <item name="label" xsi:type="string" translate="true">Rating</item>
+
+                    <item name="formElement" xsi:type="string">input</item>
+
+                    <item name="source" xsi:type="string">rating</item>
+
+                    <item name="dataScope" xsi:type="string">rating</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                        <item name="min-number" xsi:type="number">1</item>
+                    </item>
+                </item>
+            </argument>
+
+        </field>
+
+        <field name="director_id" component="Magento_Ui/js/form/element/select" formElement="select">
+            <argument name="data" xsi:type="array">
+
+                <item name="config" xsi:type="array">
+
+                    <item name="dataType" xsi:type="string">number</item>
+
+                    <item name="label" xsi:type="string" translate="true">Director ID</item>
+
+                    <item name="formElement" xsi:type="string">select</item>
+
+                    <item name="source" xsi:type="string">director_id</item>
+
+                    <item name="dataScope" xsi:type="string">director_id</item>
+
+                </item>
+            </argument>
+            <formElements>
+                <select>
+                    <settings>
+                        <options class="Magenest\Movie\Model\Source\DirectorOption"/>
+                    </settings>
+                </select>
+            </formElements>
+        </field>
+    </fieldset>
+
+</form>

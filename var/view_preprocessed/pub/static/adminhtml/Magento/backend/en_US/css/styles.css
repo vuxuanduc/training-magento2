@@ -15749,6 +15749,30 @@ dd.admin__payment-method-wrapper {
 .payment-services-hosted-fields-form .order-errors .admin__fieldset-wrapper .title {
   display: none;
 }
+@font-face {
+  font-family: 'Wrapper';
+  src: url('../Magenest_Wrapper/fonts/icon/Glyphter.woff2') format('woff2'), url('../Magenest_Wrapper/fonts/icon/Glyphter.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.admin__menu .item-giftwrapper.parent.level-0 > a:before,
+.admin__menu .item-giftwrapper.level-0 > a:before {
+  font-family: 'Wrapper';
+  font-size: 3rem;
+  line-height: 2px;
+  content: "\0047";
+  padding-top: 5px;
+}
+.section-config .action-select-wrap._active .action-select:after {
+  transform: rotate(180deg);
+}
+.section-config .action-select-wrap .action-select:after {
+  transform: none;
+}
+.image-uploader-spinner {
+  display: block;
+}
 /**
  * Mageplaza
  *

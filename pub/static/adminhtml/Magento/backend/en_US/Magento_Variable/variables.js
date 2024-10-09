@@ -1,0 +1,1 @@
+/var/www/html/magento247/vendor/magento/module-variable/view/adminhtml/web/variables.js

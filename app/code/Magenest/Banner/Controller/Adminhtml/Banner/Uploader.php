@@ -6,17 +6,8 @@ use Magento\Framework\Controller\ResultFactory;
 
 class Uploader extends \Magento\Backend\App\Action
 {
-
-    /**
-     * @var \Magenest\Banner\Model\ImageUploader
-     */
     public $imageUploader;
 
-    /**
-     * Upload constructor.
-     * @param \Magento\Backend\App\Action\Context $context
-     * @param \Magenest\Banner\Model\ImageUploader $imageUploader
-     */
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
         \Magenest\Banner\Model\ImageUploader $imageUploader
@@ -25,16 +16,11 @@ class Uploader extends \Magento\Backend\App\Action
         $this->imageUploader = $imageUploader;
     }
 
-    /**
-     * @return mixed
-     */
     public function _isAllowed() {
         return $this->_authorization->isAllowed('Magenest_Banner::banner');
     }
 
-    /**
-     * @return mixed
-     */
+
     public function execute() {
         try {
             $result = $this->imageUploader->saveFileToTmpDir('image');

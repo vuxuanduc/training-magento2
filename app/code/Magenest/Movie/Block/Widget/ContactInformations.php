@@ -1,4 +1,5 @@
 <?php
+
 namespace Magenest\Movie\Block\Widget;
 
 class ContactInformations extends \Magento\Framework\View\Element\Template implements \Magento\Widget\Block\BlockInterface

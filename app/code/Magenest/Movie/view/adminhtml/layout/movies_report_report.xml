@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magenest\Movie\Block\Adminhtml\Report\First" name="first_block" template="Magenest_Movie::report/first.phtml"/>
+            <block class="Magenest\Movie\Block\Adminhtml\Report\First" name="first_block"
+                   template="Magenest_Movie::report/first.phtml"/>
 
-            <block class="Magenest\Movie\Block\Adminhtml\Report\Second" name="second_block" template="Magenest_Movie::report/second.phtml"/>
+            <block class="Magenest\Movie\Block\Adminhtml\Report\Second" name="second_block"
+                   template="Magenest_Movie::report/second.phtml"/>
         </referenceContainer>
     </body>
 </page>

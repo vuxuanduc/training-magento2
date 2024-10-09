@@ -8,13 +8,14 @@ use Magenest\Banner\Model\BannerFactory;
 use Magento\Framework\Controller\Result\Redirect;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Exception\LocalizedException;
-
+use Magento\Framework\Filesystem\Driver\File;
 class Delete extends Action
 {
     /**
      * @var BannerFactory
      */
     protected $bannerFactory;
+    protected $fileDriver;
 
     /**
      * @param Context $context
@@ -22,9 +23,11 @@ class Delete extends Action
      */
     public function __construct(
         Context $context,
-        BannerFactory $bannerFactory
+        BannerFactory $bannerFactory,
+        File $fileDriver
     ) {
         $this->bannerFactory = $bannerFactory;
+        $this->fileDriver = $fileDriver;
         parent::__construct($context);
     }
 
@@ -45,6 +48,11 @@ class Delete extends Action
         }
 
         try {
+            $filePath = BP . '/pub/media/banners/banner/' . $banner->getData('image');
+
+            if($this->fileDriver->isExists($filePath)){
+                unlink($filePath);
+            }
             $banner->delete();
             $this->messageManager->addSuccessMessage(__('The banner has been deleted.'));
         } catch (LocalizedException $e) {

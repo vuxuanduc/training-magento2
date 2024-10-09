@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="header.container" />
+    <container name="header.left" label="headerLeft" htmlTag="div" htmlClass="left-col" />
+    <container name="header.center" label="headerCenter" htmlTag="div" htmlClass="center-col" />
+    <container name="header.right" label="headerRight" htmlTag="div" htmlClass="right-col" />
+
+
+
+    <move element="logo" destination="header.center" />
+    <move element="minicart" destination="header.left" />
+    <move element="top.search" destination="header.right" />
+</page>

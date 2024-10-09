@@ -14,17 +14,18 @@ class Action extends Column
     protected $urlBuilder;
 
     public function __construct(
-        UrlInterface $urlBuilder,
-        ContextInterface $context,
+        UrlInterface       $urlBuilder,
+        ContextInterface   $context,
         UiComponentFactory $uiComponentFactory,
-        array $components = [],
-        array $data = []
+        array              $components = [],
+        array              $data = []
     )
     {
         $this->urlBuilder = $urlBuilder;
         parent::__construct($context, $uiComponentFactory, $components, $data);
 
     }
+
     /**
      * Prepare Data Source
      *
